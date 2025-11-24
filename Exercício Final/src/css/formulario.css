@@ -1,0 +1,86 @@
+body {
+    background-color: #FCF4EB;
+}
+.container {
+    padding: 20px;
+    background-color: #FBEFE0;
+    width: fit-content;
+    border: 2px solid #CA7C48;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.titulo {
+    margin: 0;
+    gap: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    padding: 7px 0px;
+    width: 400px;
+}
+
+.input-group label {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.input-group input, .input-group textarea, .input-group select {
+    padding: 10px;
+    font-size: 12px;
+    border: 0;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.input-group-inline {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#botaoSubmeter {
+    border: 1px solid #CA7C48;
+    background-color: #CA7C48;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.erro {
+    color: red;
+}
+
+#erroTermos {
+    text-align: center;
+}
+
+.fechar {
+    text-align: right;
+}
+
+.fechar button {
+    border-radius: 15px;
+    border: 0;
+    background-color: #CA7C48;
+    color: white;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px #CA7C48;
+}

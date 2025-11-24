@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encomendas</title>
+    <link rel="stylesheet" href="formulario.css" />
+  </head>
+
+  <body>
+    <form class="container" action="processar-encomenda.php" id="form">
+      <div class="fechar">
+        <button id="botaoAnterior">X</button>
+      </div>
+      <h1 class="titulo">Encomendar</h1>
+
+      <div class="input-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Nome para Encomenda" />
+        <div class="erro" id="erroNome"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input id="email" placeholder="Email" />
+        <div class="erro" id="erroEmail"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="telemovel">Telemóvel:</label>
+        <input id="telemovel" placeholder="Número de Telemóvel" />
+        <div class="erro" id="erroTelemovel"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="produto">Seleção Produto:</label>
+        <select name="escolherProduto" id="opcao">
+          <option value=""></option>
+          <option value="boloChocolate">Bolo de Chocolate</option>
+          <option value="tarteFramboesa">Tarte de Framboesa</option>
+          <option value="bolachas">Bolachas de Limão</option>
+        </select>
+        <div class="erro" id="erroOpcao"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" value="0" />
+        <div class="erro" id="erroQuantidade"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="data">Data de Entrega:</label>
+        <input type="date" id="data" />
+        <div class="erro" id="erroData"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="observações">Observações:</label>
+        <textarea
+          name="observações"
+          id="observacoes"
+          placeholder="Informações Adicionais"
+        ></textarea>
+      </div>
+
+      <div class="input-group">
+        <div class="input-group-inline">
+          <input type="checkbox" id="termos" />
+          <label for="termos">Aceitar Termos e Condições</label>
+        </div>
+        <div class="erro" id="erroTermos"></div>
+      </div>
+
+      <button id="botaoSubmeter" type="submit">Submeter</button>
+    </form>
+
+    <script src="formulario.js"></script>
+  </body>
+</html>
