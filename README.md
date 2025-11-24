@@ -1,7 +1,8 @@
-# Final Exercise – Web Programming Project
+# Final Exercise – Bakery Shop Website Project
 
 This repository contains the final project developed for a web programming course.
-It features a simple, responsive website composed of a landing page and a form page, using **HTML**, **CSS**, and **JavaScript**.
+It features a **bakery shop website**, including a responsive landing page with product highlights and a styled form page for user interaction.
+The project is built using **HTML**, **CSS**, and **JavaScript**, and includes custom graphics and bakery-themed images.
 
 ---
 
